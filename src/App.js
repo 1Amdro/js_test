@@ -14,7 +14,7 @@ async function request(body) {
   const password = CryptoJS.MD5("Valantis_" + formattedToday);
 
   try {
-    const req = await fetch("http://api.valantis.store:40000/", {
+    const req = await fetch("https://api.valantis.store:41000/", {
       method: "post",
       headers: {
         "Content-Type": "application/json",
