@@ -1,0 +1,15 @@
+.App {
+  min-height: 100vh;
+  background: linear-gradient(#4e834e, #2977c2);
+  text-align: center;
+  padding: 20px;
+}
+
+.title {
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.loading {
+  color: #ffff;
+}

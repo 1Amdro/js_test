@@ -1,0 +1,31 @@
+.search {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+}
+
+.inp-search {
+  width: 170px;
+  height: 23px;
+  border-radius: 10px;
+  border: 2px solid white;
+}
+
+.search:focus-visible {
+  outline-style: black;
+  border: none;
+}
+
+.search-options {
+  height: 23px;
+}
+
+.btn-find {
+  width: 40px;
+  height: 23px;
+  background-color: aliceblue;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}

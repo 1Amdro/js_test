@@ -1,0 +1,53 @@
+.list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  list-style: none;
+  row-gap: 15px;
+  column-gap: 10px;
+  padding: 0;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 5px;
+
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 5px 10px;
+}
+
+.item-id {
+  color: purple;
+}
+
+.item-price {
+  color: #4caf50;
+}
+
+.item-brand {
+  color: brown;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  column-gap: 20px;
+}
+
+.btn-prev,
+.btn-next {
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+}
+
+.page-info {
+  margin-top: 10px;
+  color: #fff;
+}
